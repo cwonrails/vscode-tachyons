@@ -1,20 +1,20 @@
 {
-  "name": "tachyons",
-  "displayName": "Tachyons",
+  "name": "vscode-tachyons",
+  "displayName": "vscode-tachyons",
   "description": "Goto and peek definition for tachyons",
-  "version": "0.3.0",
-  "publisher": "octref",
+  "version": "0.4.0",
+  "publisher": "cwonrails",
   "license": "MIT",
   "keywords": [
     "tachyons"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/octref/vscode-tachyons.git"
+    "url": "https://github.com/cwonrails/vscode-tachyons.git"
   },
-  "homepage": "https://github.com/octref/vscode-tachyons",
+  "homepage": "https://github.com/cwonrails/vscode-tachyons",
   "bugs": {
-    "url": "https://github.com/octref/vscode-tachyons/issues"
+    "url": "https://github.com/cwonrails/vscode-tachyons/issues"
   },
   "engines": {
     "vscode": "^1.5.0"
@@ -33,13 +33,13 @@
     "postinstall": "node ./node_modules/vscode/bin/install"
   },
   "devDependencies": {
-    "@types/lodash": "^4.14.40",
-    "@types/node": "^6.0.51",
-    "typescript": "^2.0.3",
-    "vscode": "^1.0.0"
+    "@types/lodash": "^4.14.63",
+    "@types/node": "^7.0.15",
+    "typescript": "^2.3.2",
+    "vscode": "^1.1.0"
   },
   "dependencies": {
-    "lodash": "^4.17.2",
-    "postcss": "^5.2.6"
+    "lodash": "^4.17.4",
+    "postcss": "^5.2.17"
   }
 }
